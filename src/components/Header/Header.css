@@ -1,0 +1,50 @@
+.header{
+    position: relative;
+    text-align: center;
+    color: #2C3E50;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 16px 0 0;
+    font-weight: 700;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    transform: translateX(-50%);
+    height: 4px;
+    bottom: -15px;
+    background-color: #2C3E50 ;
+}
+.head-icon{
+    position: absolute;
+    border: none;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bgColor{
+    background-color: #1ABC9C;
+}
+/* .head-icon i{
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+}
+
+i::before{
+    position: absolute;
+    content: '';
+    top: -25px;
+    padding: 0 20px;
+    background-color: white;
+    transform: translateX(-50%);
+} */

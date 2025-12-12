@@ -1,0 +1,10 @@
+.active{
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+.navbar-brand:focus, .navbar-brand:hover{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}

@@ -1,0 +1,23 @@
+a.nav-link,a.navbar-brand{
+    color: inherit;
+}
+.navbar{
+    background-color: #2C3E50;
+    color: white;
+    line-height: 24px;
+    padding: 8px 0;
+}
+
+.navbar-brand{
+    line-height: 48px;
+    font-size: 32px;
+    margin: 0 16px 0 0;
+    padding: 5px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-item{
+    padding: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

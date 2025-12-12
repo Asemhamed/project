@@ -1,0 +1,42 @@
+.porto{
+    min-height: 80vh;
+    padding: 60px 0;
+    margin: 20px 0;
+}
+.inner{
+    border-radius: 5px;
+}
+
+.porto .layout{
+    background-color: rgba(26, 188, 156,0.8);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: .7s;
+}
+.inner:hover .layout{
+    opacity: 1;
+}
+.fa-plus{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.selector{
+    background-color: rgba(0, 255, 255, 0.225);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-display{
+    width: 750px;
+}

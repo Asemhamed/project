@@ -1,0 +1,8 @@
+.home{
+    background-color: #1ABC9C;
+    min-height: 80vh;
+    padding-top: 120px;
+}
+.home .image{
+    width: 200px;
+}
